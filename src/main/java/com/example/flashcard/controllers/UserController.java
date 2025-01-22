@@ -2,12 +2,12 @@ package com.example.flashcard.controllers;
 
 import com.example.flashcard.components.LocalizationUtils;
 import com.example.flashcard.dtos.UserDTO;
+import com.example.flashcard.dtos.UserLoginDTO;
 import com.example.flashcard.models.User;
+import com.example.flashcard.responses.LoginResponse;
 import com.example.flashcard.responses.RegisterResponse;
 import com.example.flashcard.services.IUserService;
 import com.example.flashcard.utils.MessageKeys;
-import com.project.shopapp.dtos.UserLoginDTO;
-import com.project.shopapp.responses.LoginResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
